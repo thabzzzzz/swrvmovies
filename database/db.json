@@ -1,0 +1,81 @@
+{
+    "movies":[
+        {
+            "id":1,
+            "title":"The Lion King",
+            "year":"2019",
+            "runtime":"118 min",
+            "poster":"https://m.media-amazon.com/images/I/61jkTiX8NuL._AC_UF894,1000_QL80_.jpg",
+            "type":"movie",
+            "genre":"animation",
+            "rating":"5"
+
+        },
+        {
+            "id":2,
+            "title":"Prometheus",
+            "year":"2012",
+            "runtime":"140 min",
+            "poster":"https://m.media-amazon.com/images/I/71OBE-OphQL._AC_UF894,1000_QL80_.jpg",
+            "type":"movie",
+            "genre":"sci-Fi"
+            ,
+            "rating":"8"
+        },
+        {
+            "id":3,
+            "title":"Mortal Kombat",
+            "year":"2021",
+            "runtime":"109 min",
+            "poster":"https://m.media-amazon.com/images/I/71WGVVaJ4uL._AC_UF894,1000_QL80_.jpg",
+            "type":"movie",
+            "genre":"action"
+            ,
+            "rating":"9"
+        },
+        {
+            "id":4,
+            "title":"Terminator",
+            "year":"1984",
+            "runtime":"94 min",
+            "poster":"https://m.media-amazon.com/images/I/71K8nUXLivL._AC_UF894,1000_QL80_.jpg",
+            "type":"movie",
+            "genre":"action"
+            ,
+            "rating":"6"
+        },
+        {
+            "id":5,
+            "title":"Alien",
+            "year":"1970",
+            "runtime":"102 min",
+            "poster":"https://m.media-amazon.com/images/I/51Tlyo9uh+L._AC_UF894,1000_QL80_.jpg",
+            "type":"movie",
+            "genre":"sci-Fi"
+            ,
+            "rating":"7"
+        },
+        {
+            "id":6,
+            "title":"Banshee",
+            "year":"2013",
+            "runtime":"900 min",
+            "poster":"https://m.media-amazon.com/images/M/MV5BMTkzNTA1MDI5M15BMl5BanBnXkFtZTcwNTY3NjAwOQ@@._V1_.jpg",
+            "type":"series",
+            "genre":"crime"
+            ,
+            "rating":"7"
+        },
+        {
+            "id":7,
+            "title":"ATLANTA",
+            "year":"2016",
+            "runtime":"800 min",
+            "poster":"https://m.media-amazon.com/images/M/MV5BZGU1MzRhNmMtNDExOS00NTk2LWJlYzMtMzc4YWYyN2Q3M2ZmXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+            "type":"series",
+            "genre":"drama"
+            ,
+            "rating":"7"
+        }
+    ]
+}

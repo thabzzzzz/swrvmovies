@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: satoshi;
+    src: url(./assets/fonts/kanit.ttf);
+}
+
+@font-face {
+  font-family: monsterrat;
+  src: url(./assets/fonts/monsterrat.ttf);
+}
+
+:root {
+    --textcolor: #201f1d;
+    --orange: #F05E24;
+  }
+
+#navbar-default,.site-name{
+    font-family: satoshi;
+    font-size: 30px;
+    color: #201f1d;
+}
+
+.secondaryButton {
+  background-color: white;
+  border: 2px solid black;
+  padding: 5px 25px;
+  font-weight: bold;
+  font-size: 15px;
+  position: relative;
+  color: black;
+  height: 50px;
+  font-family: oxygen;
+  transition: all 0.3s ease; /* Transition for both hover and normal state */
+}
+
+  
+.secondaryButton:hover,
+.brutalist-btn:active {
+    color: white;
+    background-color: #F05E24;
+    transition: all 0.3s ease; /* Transition for both hover and active state */
+}
+
+.cartlink {
+  padding-right: 19px;
+  padding-top: 13px;
+  padding-bottom: 9px;
+  margin-top: 2px;
+  border-color: #000000;
+  border-width: 2px;
+  font-family: monsterrat2;
+  margin-left: 1200px;
+  transition: all 0.3s ease; /* Transition for both hover and normal state */
+}
+
+.cartlink:hover {
+  color: white;
+  background-color: #F05E24;
+  transition: all 0.3s ease; /* Transition for hover state */
+}
+
+  .movie-card-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+  }
+
