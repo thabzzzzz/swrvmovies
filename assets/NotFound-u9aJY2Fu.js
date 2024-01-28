@@ -1,0 +1,1 @@
+import{_ as e,o as t,c}from"./index-Ot4iCwHM.js";const o={},n={class:"flex justify-center text-center"};function s(r,_){return t(),c("div",n," Not Found ")}const f=e(o,[["render",s]]);export{f as default};
