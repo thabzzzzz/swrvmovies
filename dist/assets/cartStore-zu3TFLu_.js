@@ -1,0 +1,1 @@
+import{s}from"./index-Ot4iCwHM.js";const n=s("cart",{state:()=>({cart:[]}),actions:{addToCart(t){const a=this.cart.find(i=>i.product.id===t.id);a?a.quantity+=1:this.cart.push({product:t,quantity:1})},updateCartItemQuantity(t,a){const i=this.cart.find(r=>r.product.id===t);i&&(i.quantity=a)}},persist:!0});export{n as u};
