@@ -31,7 +31,7 @@ const addToCart = () => {
         <div>
           <div class="text-sm text-gray-400 genre"> {{ movie.type}}</div>
           <div class="text-lg text-gray-800"><p>{{ movie.release_date }}</p></div> <br>
-          <div class="bg-white-400 border-2 border-black-900 font-bold  p-2 w-12 text-center ">{{movie.vote_average}}</div>
+          <div class="bg-white-400 border-2 border-black-900 font-bold  p-2 w-12 text-center ">{{ movie.vote_average?.toFixed(1) || movie.vote_average }}</div>
           <div class="text-sm text-gray-600 genre mt-3 overview"><p>{{ movie.overview}}</p> </div>
           <div class="button-container">
   <RouterLink :to="{ name: 'MovieDetails', params: { id: String(movie.id) } }">
